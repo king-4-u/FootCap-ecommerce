@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footcap - Find your footware</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style testmodify.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+  <!-- ==========cdn js linking======= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ==========Bootstrap linking========== -->
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ========End of bootstrap linking ======= -->
+ 
+  <!-- ==========================Search Bar=============================== -->
+  <div class="search" id="search-content">
+    <form action=""class="search__form">
+      <i class="ri-search-2-line"></i>
+      <input type="search" placeholder="What are you looking for ?" class="search__input search__close" id="search-close">
+    </form>
+    <i class="ri-close-line"></i>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <!-- ======= nav bar highliting bar ===== -->
+<!-- <div>
+  <ul id="navbarr">
+  <li><a href="">Home</a></li>
+  <li><a href="">About</a></li>
+  <li><a href="">Products</a></li>
+  <li><a href="">Shop</a></li>
+  <li><a href="">Blog</a></li>
+  <li><a href="">Contact</a></li>
+</ul>
+</div> -->
+
+    <!-- ====== end nav bar highliting bar====== -->
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="./index testmodify.html" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./About.html" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./shop.html" class="navbar-link">Products</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./shop.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./Blog.html" class="navbar-link">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./Contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+         <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="./Login.html" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+          <li><a href="./Wishlist.html">
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="0" aria-hidden="true">0</data>
+            </button>
+          </a></li>
+
+          <li><a href="./Cart.html">
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="0">Basket: <strong>₹0/-</strong></data>
+
+              <data class="nav-action-badge" value="0" aria-hidden="true">0</data>
+            </button>
+          </a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+
+        <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero blog-section" style=" background-image:url('https://142915.fs1.hubspotusercontent-na1.net/hub/142915/hubfs/061023%205%20Essential%20Questions%20to%20Consider%20When%20Redesigning%20Your%20Website.jpeg?width=800&length=800&name=061023%205%20Essential%20Questions%20to%20Consider%20When%20Redesigning%20Your%20Website.jpeg') ; ">
+        <div class="container">
+
+          <h1 class="h1 hero-titlee">
+             <strong><b>#Readmore</b></strong>
+          </h1>
+
+          <p class="hero-texte"><b>
+          Read all case studies about our products 
+        </b></p>
+
+          <!-- <button class="btn btn-primary">
+            <span>Shop Now</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button> -->
+
+        </div>
+      </section>  
+
+      <!-- ===== Blog sections start ===== -->
+<!-- ========Blog 1 ============== -->
+<section id="blog">
+  <div class="blog-box">
+   <div class="blog-img">
+     <img src="https://static.vecteezy.com/system/resources/previews/010/994/412/non_2x/nike-logo-black-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg" alt="Nike special edition">
+   </div>
+   <div class="blog-details">
+     <h2><b> Nike New Exclusive Special Addition Shoes</b></h2>
+     <p>Introducing Nike's exclusive, limited edition shoes. Combining style and innovation, these special addition shoes are crafted with precision to offer unparalleled performance. Elevate your shoe game with bold designs, premium materials, and cutting-edge technology. Embrace exclusivity and step into greatness with Nike's latest offerings.</p><button>
+     <a href="#">CONTINUE READING</a></button>
+   </div>
+   <h1>13/01</h1>
+  </div>
+
+<!-- ======Blog 2 ============= -->
+
+  <div class="blog-box">
+   <div class="blog-img">
+     <img src="https://res.cloudinary.com/zenbusiness/image/upload/v1670445040/logaster/logaster-2020-03-the-2nd-logo.avif">
+   </div>
+   <div class="blog-details">
+     <h4><b> Adidas Special Addition Shoes</b></h4>
+     <p>Introducing Adidas Special Edition Shoes, the epitome of style and technical prowess. With unique designs and limited availability, these shoes are a must-have for sneaker enthusiasts. Experience the perfect blend of comfort and performance, and showcase your individuality with Adidas' exclusive special edition offerings.</p><button>
+     <a href="#">CONTINUE READING</a></button>
+   </div>
+   <h1>16/01</h1>
+  </div>
+
+<!-- ==============Blog 3 ========== -->
+
+  <div class="blog-box">
+   <div class="blog-img">
+     <img src="https://c8.alamy.com/comp/2C4P72H/herzogenaurach-germany-puma-logo-on-a-facade-puma-is-a-major-german-multinational-company-that-produces-athletic-casual-footwear-sportswear-hea-2C4P72H.jpg" alt="puma special edition">
+   </div>
+   <div class="blog-details">
+     <h4><b> Puma New Exclusive Shoes</b></h4>
+     <p>Puma is known for its stylish and comfortable shoes, and their new exclusive line is no exception. These shoes are made with high-quality materials and feature cutting-edge technology to provide the ultimate in performance and comfort. Whether you're looking for a new pair of sneakers for everyday wear or a pair of spikes for your next race, Puma has the perfect pair of shoes for you</p><button>
+     <a href="#">CONTINUE READING</a></button>
+   </div>
+   <h1>18/01</h1>
+  </div>
+  <!-- ============Blog 4 ============== -->
+
+  <div class="blog-box">
+   <div class="blog-img">
+     <img src="https://vectorseek.com/wp-content/uploads/2020/12/Bata-logo-vector-01.jpg" alt="Nike special edition">
+   </div>
+   <div class="blog-details">
+     <h4><b>Suprisingly Bata New collection Shoes</b></h4>
+     <p>Bata is known for its affordable and durable shoes, but their new collection is surprisingly stylish and comfortable. These shoes are made with high-quality materials and feature cutting-edge designs to provide the ultimate in style and comfort.</p><button>
+     <a href="#">CONTINUE READING</a></button>
+   </div>
+   <h1>16/02</h1>
+  </div>
+
+<!-- ============Blog 5 ============== -->
+
+  <div class="blog-box">
+   <div class="blog-img">
+     <img src="https://www.gencap.com/wp-content/uploads/2017/06/Apex-logo-website.png" alt="Nike special edition">
+   </div>
+   <div class="blog-details">
+     <h4><b> Apex New Special Addition Shoes</b></h4>
+     <p>Step into the spotlight with Apex's latest collection of shoes, handcrafted to elevate your style and comfort. These exquisite creations seamlessly blend cutting-edge technology with timeless elegance, making every step a statement.</p><button>
+     <a href="#">CONTINUE READING</a></button>
+   </div>
+   <h1>19/03</h1>
+  </div>
+
+<!-- ============Blog 6 ============ -->
+
+   <div class="blog-box">
+    <div class="blog-img">
+      <img src="https://img.freepik.com/free-vector/creative-coming-soon-teaser-background_23-2148895775.jpg?w=996&t=st=1700349208~exp=1700349808~hmac=42cd7cf6de119b04e09b730c9f05cfa8f798c4706a2be1ba620fb8c8feafc9c3" alt="Nike special edition">
+    </div>
+    <div class="blog-details">
+      <h4><b> COMING SOON New Brands Shoes </b></h4>
+      <p>Get ready to revolutionize your wardrobe with the upcoming launch of our brand-new shoe collection! Immerse yourself in a world of cutting-edge designs, unparalleled comfort, and innovative technology that will redefine your footwear experience.
+
+        Sign up for our newsletter to be among the first to discover this groundbreaking collection.
+        
+        Sneak peek into the future of footwear:
+        
+        Futuristic designs
+        Unprecedented comfort
+        Groundbreaking technology
+        Exclusive styles
+        Stay tuned for the official release of our COMING SOON New Brands Shoes, where style and innovation converge.</p><button>
+      <a href="#">CONTINUE READING</a></button>
+    </div>
+    <h1>01/01</h1>
+   </div>
+</section>
+
+      <!-- ======= End of Blog sections === -->
+
+      <!-- ======== footer side page bar ======== -->
+     <div class="container">
+      <div class="pagination">
+        <button class="btnn" onclick="backBtn()"><i class="ri-arrow-left-line"></i>Prev</button>
+        <ul class="pen">
+        <li class="link activate" value="1" onclick="activateLink()">1</li>
+        <li class="link" value="2" onclick="activateLink()">2</li>
+        <li class="link" value="3" onclick="activateLink()">3</li>
+        <li class="link" value="4" onclick="activateLink()">4</li>
+        <li class="link" value="5" onclick="activateLink()">5</li></ul>
+        <button class="btnnn" onclick="nextBtn()">Next<i class="ri-arrow-right-line"></i></button>
+      </div>
+     </div>
+     <script>
+
+      let link = document.getElementsByClassName("link");
+
+let currentValue = 1;
+
+function activateLink(){
+  for(l of link){
+    l.classList.remove("activate");
+  }
+  event.target.classList.add("activate");
+  currentValue = event.target.value;
+}
+
+function backBtn(){
+  if(currentValue > 1){
+    for(l of link){
+      l.classList.remove("activate");
+    }
+    currentValue--;
+    link[currentValue-1].classList.add("activate")
+  }
+}
+
+function nextBtn(){
+  if(currentValue < 5){
+    for(l of link){
+      l.classList.remove("activate");
+    }
+    currentValue++;
+    link[currentValue-1].classList.add("activate")
+  }
+}
+     </script>
+   
+
+      <!-- ============ End of footer side page bar=========== -->
+
+      
+        <!-- ============= Footer ========== -->
+
+
+        <footer class="footer">
+
+          <div class="footer-top section">
+            <div class="container">
+      
+              <div class="footer-brand">
+      
+                <a href="#" class="logo">
+                  <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+                </a>
+      
+                <ul class="social-list">
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-pinterest"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+      
+                </ul>
+      
+              </div>
+      
+              <div class="footer-link-box">
+      
+                <ul class="footer-list">
+      
+                  <li><a href="">
+                    <p class="footer-list-title">Contact Us</p></a>
+                  </li>
+      
+                  <li>
+                    <address class="footer-link">
+                      <ion-icon name="location"></ion-icon>
+      
+                      <span class="footer-link-text"><a href="./Contact.html">
+                        Street 3, MP Nagar Bhopal , Bharat (India)
+                      </a></span>
+                    </address>
+                  </li>
+      
+                  <li>
+                    <a href="tel:+91-9956768901" class="footer-link">
+                      <ion-icon name="call"></ion-icon>
+      
+                      <span class="footer-link-text">+91-9956768901</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="mailto:footcap@help.com" class="footer-link">
+                      <ion-icon name="mail"></ion-icon>
+      
+                      <span class="footer-link-text">footcap@help.com</span>
+                    </a>
+                  </li>
+      
+                </ul>
+      
+                <ul class="footer-list">
+      
+                  <li>
+                    <p class="footer-list-title">My Account</p>
+                  </li>
+      
+                  <li>
+                    <a href="./Login.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">My Account</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="./Cart.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">View Cart</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="./Wishlist.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">Wishlist</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">Compare</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="./Shop.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">New Products</span>
+                    </a>
+                  </li>
+      
+                </ul>
+      
+                <div class="footer-list">
+      
+                  <p class="footer-list-title">Opening Time</p>
+      
+                  <table class="footer-table">
+                    <tbody>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Mon - Tue:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">8AM - 10PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Wed:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">8AM - 7PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Fri:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">7AM - 12PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Sat:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">9AM - 8PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row" style="margin-bottom: 20px;" >Sun:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">Closed</td>
+                      </tr>
+      
+                    </tbody>
+                  </table>
+      
+                </div>
+      
+                <div class="footer-list">
+      
+                  <p class="footer-list-title">Newsletter</p>
+      
+                  <p class="newsletter-text">
+                    Authoritatively morph 24/7 potentialities with error-free partnerships.
+                  </p>
+      
+                  <form action="" class="newsletter-form">
+                    <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+      
+                    <button type="submit" class="bt  btn-primary"  style="background: var(--bittersweet);
+                    color: var(--color, var(--white));">Subscribe</button>
+                  </form>
+      
+                </div>
+      
+              </div>
+      
+            </div>
+          </div>
+      
+          <div class="footer-bottom">
+            <div class="container">
+      
+              <p class="copyright">
+                &copy; 2023 <a href="#" class="copyright-link">Copyrights Rules</a>. All Rights Reserved
+              </p>
+      
+            </div>
+          </div>
+      
+        </footer>
+        
+        
+        
+        
+        
+          <!-- 
+            - #GO TO TOP
+          -->
+        
+          <a href="#top" class="go-top-btn" data-go-top>
+            <ion-icon name="arrow-up-outline"></ion-icon>
+          </a>
+        
+        
+        
+        
+        
+          <!-- 
+            - custom js link
+          -->
+          <script src="./assets/js/script testmodify.js"></script>
+        
+          <!-- 
+            - ionicon link
+          -->
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        </body>
+        
+        </html>

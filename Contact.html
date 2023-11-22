@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footcap - Find your footware</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style testmodify.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+  <!-- ==========cdn js linking======= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ==========Bootstrap linking========== -->
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ========End of bootstrap linking ======= -->
+ 
+  <!-- ==========================Search Bar=============================== -->
+  <div class="search" id="search-content">
+    <form action=""class="search__form">
+      <i class="ri-search-2-line"></i>
+      <input type="search" placeholder="What are you looking for ?" class="search__input search__close" id="search-close">
+    </form>
+    <i class="ri-close-line"></i>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <!-- ======= nav bar highliting bar ===== -->
+<!-- <div>
+  <ul id="navbarr">
+  <li><a href="">Home</a></li>
+  <li><a href="">About</a></li>
+  <li><a href="">Products</a></li>
+  <li><a href="">Shop</a></li>
+  <li><a href="">Blog</a></li>
+  <li><a href="">Contact</a></li>
+</ul>
+</div> -->
+
+    <!-- ====== end nav bar highliting bar====== -->
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="./index testmodify.html" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./About.html" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./shop.html" class="navbar-link">Products</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./shop.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./Blog.html" class="navbar-link">Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./Contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+         <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Search</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="./Login.html" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+
+          <li><a href="./Wishlist.html">
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              <span class="nav-action-text">Wishlist</span>
+
+              <data class="nav-action-badge" value="0" aria-hidden="true">0</data>
+            </button>
+          </a></li>
+
+          <li><a href="./Cart.html">
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="0">Basket: <strong>₹0/-</strong></data>
+
+              <data class="nav-action-badge" value="0" aria-hidden="true">0</data>
+            </button>
+          </a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+
+        <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero blog-section" style=" background-image:url('https://cdn.pixabay.com/photo/2018/06/07/09/01/emotions-3459666_1280.jpg') ; ">
+        <div class="container">
+
+          <h1 class="h1 hero-titlee">
+             <strong><b>#Contactus</b></strong>
+          </h1>
+
+          <p class="hero-texte"><b>
+          LEAVE A MESSAGE, We love to hear from you! 
+        </b></p>
+
+          <!-- <button class="btn btn-primary">
+            <span>Shop Now</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button> -->
+
+        </div>
+      </section>  
+
+      <!-- ====== Contect section content===== -->
+<section id="contact-details" class="section-p1">
+  <div class="details">
+    <span>GET IN TOUCH</span>
+    <h2><b>Visit one of our shop locations or contact us today</h2>
+    <h3>Head Office</b></h3>
+    <div><li> <ion-icon name="location"></ion-icon>
+      <p>Street 3, MP Nagar Bhopal , Bharat (India)</p>
+    </li>
+
+    <li><ion-icon name="call"></ion-icon>
+      <p>+91-9956768901</p>
+    </li>
+
+    <li><ion-icon name="mail"></ion-icon>
+      <p>footcap@help.com</p>
+    </li>
+
+    <li><ion-icon name="mail"></ion-icon>
+      <p>Street 3, MP Nagar Bhopal , Bharat (India)</p>
+    </li>
+
+  </div>
+  </div>
+  <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14664.474174124174!2d77.43216645000003!3d23.23877295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c426f577f20a7%3A0x429209a09ead1ef0!2sZone-I%2C%20Maharana%20Pratap%20Nagar%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700675651094!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</section>
+<section id="form-details"></section>
+<form action="">
+<span>LEAVE A MESSAGE</span>
+<h2>We love to hear from you</h2>
+<input type="text" placeholder="Your Name">
+<input type="text" placeholder="E-mail">
+<input type="text" placeholder="Subject">
+<textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+<button>Submit</button>
+</form>
+</section>
+      <!-- ===== End of Contect section ===== -->
+
+        <!-- ============= Footer ========== -->
+
+
+        <footer class="footer">
+
+          <div class="footer-top section">
+            <div class="container">
+      
+              <div class="footer-brand">
+      
+                <a href="#" class="logo">
+                  <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+                </a>
+      
+                <ul class="social-list">
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-pinterest"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+      
+                </ul>
+      
+              </div>
+      
+              <div class="footer-link-box">
+      
+                <ul class="footer-list">
+      
+                  <li><a href="">
+                    <p class="footer-list-title">Contact Us</p></a>
+                  </li>
+      
+                  <li>
+                    <address class="footer-link">
+                      <ion-icon name="location"></ion-icon>
+      
+                      <span class="footer-link-text"><a href="./Contact.html">
+                        Street 3, MP Nagar Bhopal , Bharat (India)
+                      </a></span>
+                    </address>
+                  </li>
+      
+                  <li>
+                    <a href="tel:+557343673257" class="footer-link">
+                      <ion-icon name="call"></ion-icon>
+      
+                      <span class="footer-link-text">+91-9956768901</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="mailto:footcap@help.com" class="footer-link">
+                      <ion-icon name="mail"></ion-icon>
+      
+                      <span class="footer-link-text">footcap@help.com</span>
+                    </a>
+                  </li>
+      
+                </ul>
+      
+                <ul class="footer-list">
+      
+                  <li>
+                    <p class="footer-list-title">My Account</p>
+                  </li>
+      
+                  <li>
+                    <a href="./Login.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">My Account</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="./Cart.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">View Cart</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="./Wishlist.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">Wishlist</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">Compare</span>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="./Shop.html" class="footer-link">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+      
+                      <span class="footer-link-text">New Products</span>
+                    </a>
+                  </li>
+      
+                </ul>
+      
+                <div class="footer-list">
+      
+                  <p class="footer-list-title">Opening Time</p>
+      
+                  <table class="footer-table">
+                    <tbody>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Mon - Tue:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">8AM - 10PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Wed:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">8AM - 7PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Fri:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">7AM - 12PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row">Sat:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">9AM - 8PM</td>
+                      </tr>
+      
+                      <tr class="table-row">
+                        <th class="table-head" scope="row" style="margin-bottom: 20px;" >Sun:</th>
+      
+                        <td class="table-data" style="padding-left: 40px;">Closed</td>
+                      </tr>
+      
+                    </tbody>
+                  </table>
+      
+                </div>
+      
+                <div class="footer-list">
+      
+                  <p class="footer-list-title">Newsletter</p>
+      
+                  <p class="newsletter-text">
+                    Authoritatively morph 24/7 potentialities with error-free partnerships.
+                  </p>
+      
+                  <form action="" class="newsletter-form">
+                    <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+      
+                    <button type="submit" class="bt  btn-primary"  style="background: var(--bittersweet);
+                    color: var(--color, var(--white));">Subscribe</button>
+                  </form>
+      
+                </div>
+      
+              </div>
+      
+            </div>
+          </div>
+      
+          <div class="footer-bottom">
+            <div class="container">
+      
+              <p class="copyright">
+                &copy; 2023 <a href="#" class="copyright-link">Copyrights Rules</a>. All Rights Reserved
+              </p>
+      
+            </div>
+          </div>
+      
+        </footer>
+        
+        
+        
+        
+        
+          <!-- 
+            - #GO TO TOP
+          -->
+        
+          <a href="#top" class="go-top-btn" data-go-top>
+            <ion-icon name="arrow-up-outline"></ion-icon>
+          </a>
+        
+        
+        
+        
+        
+          <!-- 
+            - custom js link
+          -->
+          <script src="./assets/js/script testmodify.js"></script>
+        
+          <!-- 
+            - ionicon link
+          -->
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+        </body>
+        
+        </html>
